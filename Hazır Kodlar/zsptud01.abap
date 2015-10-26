@@ -34,6 +34,7 @@
 * inserting new data.
 * This is very useful when attempting to transfer data from one client
 * to another
+* http://www.abap-tutorials.com/wp-content/uploads/2011/06/zsptud011.txt
 *----------------------------------------------------------------------
 
 REPORT zsptud01 LINE-SIZE 80
