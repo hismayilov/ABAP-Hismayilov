@@ -4,7 +4,7 @@ let headers = [
   "host": "sapnde.sap.norm.local8000",
   "connection": "keep-alive",
   "soapaction": "\\"urnsap-comdocumentsapsoapfunctionsmc-stylez_sap_eCOMMERCE_SERVICE_DEFZDeliveryHistoryRequest\\"",
-  "authorization": "Basic aGlzbWF5aWxvdjpBYTE5ODUxOTg1",
+  "authorization": "Basic xxxxxxxxxxxxxxxxxxxxxxxxxx",
   "content-type": "text/xml; charset=\\"UTF-8\\"",
   "accept": "*/*",
   "accept-encoding": "gzip, deflate",
