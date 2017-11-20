@@ -31,7 +31,7 @@ write /: v1 , v2
 **Write ilə**
 ```abap
 write: empno no NO-ZERO.
-WRITE lv_variable USING EDIT MASK ‘==ALPHA’.
+WRITE lv_variable USING EDIT MASK '==ALPHA'.
 
 ```
 
