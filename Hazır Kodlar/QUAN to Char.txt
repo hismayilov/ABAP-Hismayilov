@@ -1,0 +1,7 @@
+Just directly assign QUAN/DEC-Field to char field and then use CONDENSE.
+
+l_charfield = l_quanfield.
+
+CONDENSE l_charfield.
+
+Make sure that length of ur char field is sufficient enough. I think max quan field outputlength i have seen is 23.
