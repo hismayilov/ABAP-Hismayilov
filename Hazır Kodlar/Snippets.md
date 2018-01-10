@@ -4,9 +4,9 @@
 
 **Command ilə**
 ```abap
-shift <field> left deleting leading '0'. 
+shift <field> left deleting leading '0'.
 ```
-**FM ilə.** 
+**FM ilə** 
 ```abap    
 'CONVERSION_EXIT_ALPHA_OUTPUT'. " Remove leading zero.
 'CONVERSION_EXIT_ALPHA_INPUT'. " Add leading zero.
@@ -15,8 +15,8 @@ shift <field> left deleting leading '0'.
 ```abap
 Data: Lv_Char(10) type c value '12345'.
 Data: lv_num(10) type n.
- 
-lv_num = lv_char. 
+
+lv_num = lv_char.
 " lv_num = '0000012345'
 ```
 
@@ -41,9 +41,3 @@ CALL FUNCTION 'CONVERSION_EXIT_ALPHA_INPUT' "0 ları əlavə et"
 CALL FUNCTION 'CONVERSION_EXIT_MATN1_OUTPUT' "0 ları sil"
 * İki Conversion routine MATNR domain-ində var.
 ```
-
-
-
-
-
-
